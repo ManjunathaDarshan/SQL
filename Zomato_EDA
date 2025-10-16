@@ -1,1 +1,9 @@
+// Contents of Table
+Select *
+from `Zomato.Zomato`
 
+//Data Spread (Restaurants,Countries and cities)
+Select count(distinct(RestaurantID)) as Total_Resturants,count(distinct(CountryCode)) as Total_country,count(distinct(City)) as Total_city
+from `Zomato.Zomato`
+
+//
